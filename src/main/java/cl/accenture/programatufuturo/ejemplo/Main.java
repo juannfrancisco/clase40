@@ -9,6 +9,8 @@ public class Main {
     public static void main( String[] args ){
 
         try{
+
+            //Incluir codigo nuevo
             Class.forName("com.mysql.jdbc.Driver");
             Connection connection =
                     DriverManager.getConnection(
